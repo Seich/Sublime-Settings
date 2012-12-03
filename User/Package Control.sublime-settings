@@ -1,0 +1,23 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"DocBlockr",
+		"EJS",
+		"emmet-sublime",
+		"Git",
+		"JsFormat",
+		"JSHint",
+		"LiveReload",
+		"Nettuts+ Fetch",
+		"Origami",
+		"Package Control",
+		"SublimeServer",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	],
+	"repositories":
+	[
+		"https://github.com/sergeche/emmet-sublime"
+	]
+}

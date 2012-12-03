@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+(function(namespace, undefined) {
+	'use strict';
+
+	var ${1:Class}${2: = function() \{
+		${3:// code}
+		\}};
+
+	namespace.${4:Name} = namespace.${4:Name} || {};
+	namespace.${4:Name}.${1:Class} = ${1:Class};
+}(this));
+]]></content>
+	<tabTrigger>ns</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
