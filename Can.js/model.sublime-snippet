@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+(function(namespace, undefined) {
+	'use strict';
+
+	var ${1:Name} = can.Model({
+		${2:${3:findAll : ${4:'GET /todos'},}
+		${5:findOne : ${6:'GET /todos/{id\}'},}
+		${7:create  : ${8:'POST /todos'},}
+		${9:update  : ${10:'PUT /todos/{id\}'},}
+		${11:destroy : ${12:'DELETE /todos/{id\}'}}
+	}}, {});
+
+	namespace.Models = namespace.Models || {};
+	namespace.Models.${1:Name} = ${1:Name};
+}(this));
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
