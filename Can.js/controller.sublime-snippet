@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+(function(namespace, undefined) {
+	'use strict';
+
+	var ${1:Name} = can.Control({
+		'init': function(element, options) {
+			var self = this;
+		}
+	});
+
+	namespace.Controllers = namespace.Controllers || {};
+	namespace.Controllers.${1:Name} = ${1:Name};
+}(this));
+]]></content>
+	<tabTrigger>control</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

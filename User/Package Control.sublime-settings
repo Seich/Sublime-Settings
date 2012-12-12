@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"CSSFormat",
 		"DocBlockr",
 		"EJS",
 		"emmet-sublime",
@@ -12,6 +13,7 @@
 		"Nettuts+ Fetch",
 		"Origami",
 		"Package Control",
+		"Sass",
 		"SublimeServer",
 		"Theme - Soda",
 		"Tomorrow Color Schemes"

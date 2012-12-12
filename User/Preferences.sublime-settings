@@ -1,13 +1,15 @@
 {
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
 	"font_size": 10.5,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage",
 		"emmet-sublime",
-		"Origami",
-		"EJS"
+		"EJS",
+		"Origami"
 	],
+	"overlay_scroll_bars": "enable",
 	"theme": "Soda Dark.sublime-theme",
 	"word_wrap": "false"
 }
